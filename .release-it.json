@@ -57,8 +57,8 @@
 						"section": "🔧 Continuous Integration | CI 配置"
 					}
 				],
-				"commitUrlFormat": "https://github.com/lattelu/hccwp-cli/commit/{{hash}}",
-				"compareUrlFormat": "https://github.com/lattelu/hccwp-cli/commit/compare/{{previousTag}}...{{currentTag}}"
+				"commitUrlFormat": "https://github.com/lattelu/agee-cli/commit/{{hash}}",
+				"compareUrlFormat": "https://github.com/lattelu/agee-cli/commit/compare/{{previousTag}}...{{currentTag}}"
 			}
 		}
 	}

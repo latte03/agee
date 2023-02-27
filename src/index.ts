@@ -30,13 +30,13 @@ program
 
 program
   // 配置版本号信息
-  .name('hccwp-cli')
+  .name('agee-cli')
   .version(`v${packageJSON.version}`)
   .usage('<command> [option]')
 
 program.on('--help', () => {
   console.log(
-    `\r\n${figlet.textSync('HCCWP', {
+    `\r\n${figlet.textSync('agee', {
       font: 'Ghost',
       horizontalLayout: 'default',
       verticalLayout: 'default',
@@ -46,7 +46,7 @@ program.on('--help', () => {
   )
 
   console.log(
-    `\r\nRun ${chalk.cyan(`hccwp <command> --help`)} show details\r\n`,
+    `\r\nRun ${chalk.cyan(`agee <command> --help`)} show details\r\n`,
   )
 })
 

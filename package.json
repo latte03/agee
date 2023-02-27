@@ -1,11 +1,11 @@
 {
-	"name": "@hccwp/cli",
+	"name": "@agee/cli",
 	"version": "1.0.6",
 	"description": "",
 	"main": "./lib/index.js",
 	"type": "module",
 	"bin": {
-		"hccwp": "./bin/hccwp-cli.js"
+		"agee": "./bin/cli.js"
 	},
 	"files": [
 		"package.json",
@@ -28,13 +28,13 @@
 		"cli",
 		"typescript 脚手架",
 		"ts 脚手架",
-		"hccwp"
+		"agee"
 	],
 	"author": "lattelu",
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lattelu/hccwp-cli.git"
+		"url": "https://github.com/lattelu/agee-cli.git"
 	},
 	"husky": {
 		"hooks": {
