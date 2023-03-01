@@ -12,7 +12,13 @@ const downloadGitRepoByPromise = util.promisify(downloadGitRepo)
 type PromiseReturn<T> = T extends () => Promise<infer Value> ? Value : never
 
 export default class Generator {
+  /**
+   * 项目名称
+   */
   private name: string
+  /**
+   * 项目路径
+   */
   private targetDir: string
 
   constructor(name: string, targetDir: string) {

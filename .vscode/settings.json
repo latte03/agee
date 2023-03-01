@@ -3,6 +3,9 @@
 		"config",
 		"core",
 		"dep"
+	],
+	"cSpell.words": [
+		"picocolors"
 	]
 
 }

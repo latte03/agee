@@ -16,5 +16,6 @@ module.exports = {
     'prettier/prettier': 'error',
     'antfu/if-newline': 'off',
     'no-console': 'off',
+    // '@typescript-eslint/no-unsafe-assignment': 'off',
   },
 }

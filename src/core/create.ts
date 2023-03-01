@@ -2,7 +2,7 @@ import path from 'node:path'
 import process from 'node:process'
 import fs from 'fs-extra'
 import inquirer from 'inquirer'
-import type { CreateOptions } from '../types.js'
+import type { CreateOptions } from '../types/index.js'
 import Generator from './Generator.js'
 
 export default async function create(name: string, options: CreateOptions) {
